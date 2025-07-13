@@ -3,9 +3,9 @@ This project explores Bayesian inference techniques to recover latent periodic s
 
 ## 🌟 Problem Statement
 Given a noisy time-series signal: $y_i = f(t_i) + \epsilon_i$
-where, $\epsilon_i \sim \mathcal{N}(0, \sigma ^2)$
+where, $\epsilon_i \sim \mathcal{N}(0, \sigma ^2)$ is an assumed Gaussian noise.
 
-the task is to infer the true periodic function f(t) and obtain posterior distributions over its parameters (e.g., frequency, amplitude, phase).
+The task is to infer the true periodic function $f(t)$ and obtain posterior distributions over its parameters (e.g., frequency, amplitude, phase).
 
 ## 💻 Applications
 The approach is applied to two Kepler targets:
