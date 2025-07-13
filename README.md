@@ -1,16 +1,13 @@
-# 🌀 Posterior Inference for Periodic Signals
+# Posterior Inference for Periodic Signals
 This project explores Bayesian inference techniques to recover latent periodic signals from noisy time-series observations. The methods are demonstrated on synthetic data and extended to real-world Kepler space telescope light curves, illustrating how Bayesian tools can uncover periodicities in stellar brightness due to rotation or oscillation.
 
-## Problem Statement
-Given a noisy time-series signal:
-
-<center> $ y_i = f(t_i) + \epsilon_i $ </center>
-
+## 🌟 Problem Statement
+Given a noisy time-series signal: $ y_i = f(t_i) + \epsilon_i $
 where, $\epsilon_i \sim \mathcal{N}(0, \sigma ^2)$
 
 the task is to infer the true periodic function f(t) and obtain posterior distributions over its parameters (e.g., frequency, amplitude, phase).
 
-## 🌟 Applications
+## 💻 Applications
 The approach is applied to two Kepler targets:
 
 - Quiet Star (KIC 007596240): A simple harmonic model is fit to the true flux values to capture baseline periodicity.
